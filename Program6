@@ -1,0 +1,9 @@
+Q.6 WAP which accept number from user & check whether that number is positive or negative or zero
+
+n = int(input("Enter the number :"))
+if(n > 0):
+    print("Number is Positive")
+elif(n == 0):
+    print("Zero")
+else:
+    print("Number is Negative")
