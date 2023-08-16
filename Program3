@@ -1,0 +1,14 @@
+Q3 WAP which contains one function named as Add() which accepts two numbers from user & return addition of that two numbers.
+
+def Add(No1, No2):
+    Total = 0
+    Total = No1 + No2
+    return Total
+
+V1 = int(input("Enter No1 :"))
+V2 = int(input("Enter No2 :"))
+
+Ans = 0
+Ans = Add(V1, V2)
+
+print("Additon is :", Ans)
