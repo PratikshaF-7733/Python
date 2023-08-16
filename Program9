@@ -1,0 +1,4 @@
+Q.9 WAP which display first 10 even numbers on screen
+
+for even_no in range(2,22,2):
+    print(even_no) 
