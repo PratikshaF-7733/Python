@@ -1,0 +1,21 @@
+Q2. WAP which contains one function named as ChkNum() which accept one parameter as number.
+If number is even then it should display "Even Number" otherwise display "Odd Number" on console.
+
+def ChkNum(Number):
+    Result = Number % 2
+
+    
+    if(Result == 0):
+        print("Even Number")
+    else:
+        print("Odd number")
+
+def main():
+    print("Enter Number")
+    Number = int(input())
+
+    ChkNum(Number)
+
+if __name__ == "__main__":
+    main()
+
