@@ -1,0 +1,5 @@
+Q. 8. WAP which accept number from user & print that number of "*" on screen
+
+x = int(input("Enter the number :"))
+for i in range(x):
+    print("*", end = " ")      
