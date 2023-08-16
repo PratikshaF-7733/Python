@@ -1,0 +1,4 @@
+Q.4 WAP which display 5 times "Marvellous" on screen
+
+for n in range(5):
+    print("Marvellous")  
