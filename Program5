@@ -1,1 +1,8 @@
+Q.5 WAP which display 10 to 1 on screen
 
+i = 10
+num = 1
+print("list of number from 10 to 1 are :")
+while(i >= num):
+    print(i)
+    i = i-1
