@@ -1,0 +1,4 @@
+Q.10 WAP which accept name from user & display length of its name.
+
+str = (input("Enter a String :"))
+print("Length of the string is :",len(str))
