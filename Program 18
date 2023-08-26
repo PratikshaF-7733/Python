@@ -1,0 +1,19 @@
+'''
+Q8. WAP which accept one number & display below pattern.
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+'''
+def Pattern2(r):
+    for i in range(r):
+        j = 1
+        while j <= i + 1:
+            print(j, end = " ")
+            j += 1
+        print("\n")
+    
+s = int(input("Enter the number : "))
+Pattern2(s)
