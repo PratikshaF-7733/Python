@@ -1,0 +1,13 @@
+'''
+Q3. WAP which accept one number from user & return its factorial.
+
+'''
+def Fact(n):
+    i = 1
+    while n > 0:
+        i = i * n
+        n = n - 1
+    return i
+
+No = int(input("Enter the number : "))
+print("Factorial of given number is : ",Fact(No))
