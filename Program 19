@@ -1,0 +1,10 @@
+'''
+Q9. WAP which accept number from user & return number of digits in that number
+'''
+
+n = int(input("Enter the number : "))
+cnt = 0
+while(n > 0):
+    cnt = cnt + 1
+    n = n // 10
+print("Number of digit is : ", cnt)
