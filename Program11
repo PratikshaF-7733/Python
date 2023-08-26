@@ -1,0 +1,17 @@
+'''
+Q1. Create on module named as Arithmetic which contains 4 function as Add() for Addition, Sub() for Substraction, Mult() for Multiplication &
+Div() for Division. All functions accepts two parameters as number & perform the operation.
+write on python program which call all the funcions from Arithmetic module by accepting the parameters from user.
+'''
+import Arithmetic
+
+No1 = int(input("Enter the First number :"))
+No2 = int(input("Enter the Second number :"))
+
+print("Addition is = ",+Arithmetic.Add(No1,No2))
+
+print("Substraction is = ",+Arithmetic.Sub(No1,No2))
+
+print("Multiplication is = ",+Arithmetic.Mult(No1,No2))
+
+print("Division is = ",+Arithmetic.Div(No1,No2))
