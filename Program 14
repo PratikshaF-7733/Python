@@ -1,0 +1,15 @@
+'''
+Q4. WAP which accept one number from user & return addition of its factors.
+
+'''
+def Fact_Sum(f):
+    i = 1
+    ans = 0 
+    while f > i:
+        if f % i == 0:
+            ans = ans + i
+        i = i + 1
+    return ans
+
+f = int(input("Enter the number : ")) 
+print("Addition is : ", +Fact_Sum(f))
