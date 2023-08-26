@@ -1,0 +1,14 @@
+'''
+Q.10 WAP which accept number from user & return addition of digits in that number.
+
+'''
+def Sum(n):
+    i = 0
+    while n > 0:
+        i += n % 10
+        n = n // 10
+    return i
+
+n1 = int(input("Enter the number : "))
+n2 = Sum(n1)
+print("Addition of digits = ", +n2)
