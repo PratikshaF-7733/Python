@@ -3,6 +3,22 @@ Q1. Create on module named as Arithmetic which contains 4 function as Add() for 
 Div() for Division. All functions accepts two parameters as number & perform the operation.
 write on python program which call all the funcions from Arithmetic module by accepting the parameters from user.
 '''
+***Arithmetic.py***
+
+# Assignment2_1.py
+
+def Add(No1, No2):
+    return No1 + No2
+
+def Sub(No1, No2):
+    return No1 - No2
+
+def Mult(No1, No2):
+    return No1 * No2
+
+def Div(No1, No2):
+    return No1 / No2    
+#########################################################################################################################
 import Arithmetic
 
 No1 = int(input("Enter the First number :"))
