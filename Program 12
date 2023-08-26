@@ -1,0 +1,18 @@
+'''
+Q2. WAP which accept one number & display below pattern. 
+Input - 5 
+
+* * * * * 
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+'''
+def Pattern(n):
+    for i in range(n):
+        for j in range(n):
+            print("*",end = "  ")
+        print("\n")                 
+
+n = int(input("Enter the number : "))
+Pattern(n)
